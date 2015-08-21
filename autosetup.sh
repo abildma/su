@@ -19,9 +19,9 @@ git clone git://github.com/tarruda/zsh-autosuggestions ~/.zsh/zsh-autosuggestion
 git clone git://github.com/jimmijj/zsh-syntax-highlighting ~/.zsh/zsh-syntax-highlighting
 
 # SECURELY COPYING ZSH FILE FROM X201i TO LOCAL
-scp madsabi@192.168.241.21:.zshrc ~/.zshrc
-scp madsabi@192.168.241.21:.vimrc ~/.vimrc
-scp madsabi@192.168.241.21:.vim ~/.vim
+scp user@x.x.x.x:.zshrc ~/.zshrc
+scp user@x.x.x.x:.vimrc ~/.vimrc
+scp user@x.x.x.x:.vim ~/.vim
 source ~/.zshrc
 
 echo 'Dpkg::Progress-Fancy "1";' > /etc/apt/apt.conf.d/99progressbar
